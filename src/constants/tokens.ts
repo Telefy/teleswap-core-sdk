@@ -21,12 +21,12 @@ export const USDC: TokenMap = {
   [ChainId.FUSE]: new Token(ChainId.FUSE, USDC_ADDRESS[ChainId.FUSE], 6, 'USDC', 'USD Coin'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, USDC_ADDRESS[ChainId.TELOS], 6, 'USDC', 'USD Coin'),
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, USDC_ADDRESS[ChainId.MOONBEAM], 6, 'USDC', 'USD Coin'),
-  [ChainId.OPTIMISM]: new Token(ChainId.OPTIMISM, USDC_ADDRESS[ChainId.OPTIMISM], 6, 'USDC', 'USD Coin'),
+  [ChainId.OPTIMISM]: new Token(ChainId.OPTIMISM, USDC_ADDRESS[ChainId.OPTIMISM], 6, 'USDC', 'USD Coin')
 }
 
 export const USD: TokenMap = {
   ...USDC,
-  [ChainId.CELO]: new Token(ChainId.CELO, USD_ADDRESS[ChainId.CELO], 18, 'cUSD', 'Celo Dollar'),
+  [ChainId.CELO]: new Token(ChainId.CELO, USD_ADDRESS[ChainId.CELO], 18, 'cUSD', 'Celo Dollar')
 }
 
 export const WETH9: TokenMap = {
@@ -35,7 +35,13 @@ export const WETH9: TokenMap = {
   [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, WETH9_ADDRESS[ChainId.RINKEBY], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.GOERLI]: new Token(ChainId.GOERLI, WETH9_ADDRESS[ChainId.GOERLI], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, WETH9_ADDRESS[ChainId.KOVAN], 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.ARBITRUM_ONE]: new Token(ChainId.ARBITRUM_ONE, WETH9_ADDRESS[ChainId.ARBITRUM_ONE], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.ARBITRUM_ONE]: new Token(
+    ChainId.ARBITRUM_ONE,
+    WETH9_ADDRESS[ChainId.ARBITRUM_ONE],
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
   [ChainId.ARBITRUM_TESTNET]: new Token(
     ChainId.ARBITRUM_TESTNET,
     WETH9_ADDRESS[ChainId.ARBITRUM_TESTNET],
@@ -55,7 +61,7 @@ export const WETH9: TokenMap = {
   [ChainId.TELOS]: new Token(ChainId.TELOS, WETH9_ADDRESS[ChainId.TELOS], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.FUSE]: new Token(ChainId.FUSE, WETH9_ADDRESS[ChainId.FUSE], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, WETH9_ADDRESS[ChainId.MOONBEAM], 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.OPTIMISM]: new Token(ChainId.OPTIMISM, WETH9_ADDRESS[ChainId.OPTIMISM], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.OPTIMISM]: new Token(ChainId.OPTIMISM, WETH9_ADDRESS[ChainId.OPTIMISM], 18, 'WETH', 'Wrapped Ether')
 }
 
 export const WNATIVE: TokenMap = {
@@ -142,7 +148,7 @@ export const WNATIVE: TokenMap = {
   ),
   [ChainId.FUSE]: new Token(ChainId.FUSE, WNATIVE_ADDRESS[ChainId.FUSE], 18, 'WFUSE', 'Wrapped Fuse'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, WNATIVE_ADDRESS[ChainId.TELOS], 18, 'WTLOS', 'Wrapped Telos'),
-  [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, WNATIVE_ADDRESS[ChainId.MOONBEAM], 18, 'WGLMR', 'Wrapped Glimmer'),
+  [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, WNATIVE_ADDRESS[ChainId.MOONBEAM], 18, 'WGLMR', 'Wrapped Glimmer')
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -155,7 +161,13 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.FANTOM]: new Token(ChainId.FANTOM, SUSHI_ADDRESS[ChainId.FANTOM], 18, 'SUSHI', 'SushiToken'),
   [ChainId.XDAI]: new Token(ChainId.XDAI, SUSHI_ADDRESS[ChainId.XDAI], 18, 'SUSHI', 'SushiToken'),
   [ChainId.BSC]: new Token(ChainId.BSC, SUSHI_ADDRESS[ChainId.BSC], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.ARBITRUM_ONE]: new Token(ChainId.ARBITRUM_ONE, SUSHI_ADDRESS[ChainId.ARBITRUM_ONE], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.ARBITRUM_ONE]: new Token(
+    ChainId.ARBITRUM_ONE,
+    SUSHI_ADDRESS[ChainId.ARBITRUM_ONE],
+    18,
+    'SUSHI',
+    'SushiToken'
+  ),
   [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, SUSHI_ADDRESS[ChainId.AVALANCHE], 18, 'SUSHI', 'SushiToken'),
   [ChainId.OKEX]: new Token(ChainId.OKEX, SUSHI_ADDRESS[ChainId.OKEX], 18, 'SUSHI', 'SushiToken'),
   [ChainId.HARMONY]: new Token(ChainId.HARMONY, SUSHI_ADDRESS[ChainId.HARMONY], 18, 'SUSHI', 'SushiToken'),
@@ -164,5 +176,5 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.MOONRIVER]: new Token(ChainId.MOONRIVER, SUSHI_ADDRESS[ChainId.MOONRIVER], 18, 'SUSHI', 'SushiToken'),
   [ChainId.FUSE]: new Token(ChainId.FUSE, SUSHI_ADDRESS[ChainId.FUSE], 18, 'SUSHI', 'SushiToken'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, SUSHI_ADDRESS[ChainId.TELOS], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, SUSHI_ADDRESS[ChainId.MOONBEAM], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, SUSHI_ADDRESS[ChainId.MOONBEAM], 18, 'SUSHI', 'SushiToken')
 }

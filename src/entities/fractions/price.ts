@@ -26,12 +26,12 @@ export class Price<TBase extends Currency, TQuote extends Currency> extends Frac
       ;[baseCurrency, quoteCurrency, denominator, numerator] = args
     } else {
       const result = args[0].quoteAmount.divide(args[0].baseAmount)
-        ;[baseCurrency, quoteCurrency, denominator, numerator] = [
-          args[0].baseAmount.currency,
-          args[0].quoteAmount.currency,
-          result.denominator,
-          result.numerator
-        ]
+      ;[baseCurrency, quoteCurrency, denominator, numerator] = [
+        args[0].baseAmount.currency,
+        args[0].quoteAmount.currency,
+        result.denominator,
+        result.numerator
+      ]
     }
     super(numerator, denominator)
 
