@@ -1,14 +1,14 @@
 {
-  "name": "@teleswap/core-sdk",
+  "name": "@telefy/teleswap-core-sdk",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "⚒️ An SDK provides a developer with the ability to build a custom app which can be connected to Teleswap",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Telefy/core-sdk.git",
+  "repository": "https://github.com/Telefy/teleswap-core-sdk.git",
   "keywords": [
     "teleswap",
     "ethereum"
