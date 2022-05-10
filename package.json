@@ -1,7 +1,7 @@
 {
   "name": "@telefy/teleswap-core-sdk",
   "license": "MIT",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "⚒️ An SDK provides a developer with the ability to build a custom app which can be connected to Teleswap",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -13,7 +13,7 @@
     "teleswap",
     "ethereum"
   ],
-  "module": "dist/sdk-core.esm.js",
+  "module": "dist/core-sdk.esm.js",
   "scripts": {
     "build": "tsdx build",
     "start": "tsdx watch",
@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@ethersproject/address": "^5.0.2",
+    "@ethersproject/providers": "^5.0.2",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.4",
