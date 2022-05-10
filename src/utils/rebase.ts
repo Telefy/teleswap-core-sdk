@@ -24,3 +24,11 @@ export function toElastic(total: Rebase, base: JSBI, roundUp: boolean): JSBI {
 export function toHex(currencyAmount: CurrencyAmount<Currency>) {
   return `0x${currencyAmount.quotient.toString(16)}`
 }
+
+export function toAmount(token: Rebase, shares: JSBI): JSBI {
+  return JSBI.GT(token.base, 0) ? JSBI.divide(JSBI.multiply(shares, token.elastic), token.base) : JSBI.BigInt(0)
+}
+
+export function toShare(token: Rebase, amount: JSBI): JSBI {
+  return JSBI.GT(token.elastic, 0) ? JSBI.divide(JSBI.multiply(amount, token.base), token.elastic) : JSBI.BigInt(0)
+}
