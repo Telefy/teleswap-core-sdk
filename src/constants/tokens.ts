@@ -1,5 +1,5 @@
 import { ChainTokenMap, TokenMap } from '../types'
-import { SUSHI_ADDRESS, USDC_ADDRESS, USD_ADDRESS, WETH9_ADDRESS, WNATIVE_ADDRESS } from './addresses'
+import { TELE_ADDRESS, USDC_ADDRESS, USD_ADDRESS, WETH9_ADDRESS, WNATIVE_ADDRESS } from './addresses'
 
 import { ChainId } from './chainId'
 import { Token } from '../entities/Token'
@@ -151,30 +151,30 @@ export const WNATIVE: TokenMap = {
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, WNATIVE_ADDRESS[ChainId.MOONBEAM], 18, 'WGLMR', 'Wrapped Glimmer')
 }
 
-export const SUSHI: ChainTokenMap = {
-  [ChainId.MAINNET]: new Token(ChainId.MAINNET, SUSHI_ADDRESS[ChainId.MAINNET], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, SUSHI_ADDRESS[ChainId.ROPSTEN], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, SUSHI_ADDRESS[ChainId.RINKEBY], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.GOERLI]: new Token(ChainId.GOERLI, SUSHI_ADDRESS[ChainId.GOERLI], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.KOVAN]: new Token(ChainId.KOVAN, SUSHI_ADDRESS[ChainId.KOVAN], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.MATIC]: new Token(ChainId.MATIC, SUSHI_ADDRESS[ChainId.MATIC], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.FANTOM]: new Token(ChainId.FANTOM, SUSHI_ADDRESS[ChainId.FANTOM], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.XDAI]: new Token(ChainId.XDAI, SUSHI_ADDRESS[ChainId.XDAI], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.BSC]: new Token(ChainId.BSC, SUSHI_ADDRESS[ChainId.BSC], 18, 'SUSHI', 'SushiToken'),
+export const TELE: ChainTokenMap = {
+  [ChainId.MAINNET]: new Token(ChainId.MAINNET, TELE_ADDRESS[ChainId.MAINNET], 18, 'TELE', 'Telefy'),
+  [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, TELE_ADDRESS[ChainId.ROPSTEN], 18, 'TELE', 'Telefy'),
+  [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, TELE_ADDRESS[ChainId.RINKEBY], 18, 'TELE', 'Telefy'),
+  [ChainId.GOERLI]: new Token(ChainId.GOERLI, TELE_ADDRESS[ChainId.GOERLI], 18, 'TELE', 'Telefy'),
+  [ChainId.KOVAN]: new Token(ChainId.KOVAN, TELE_ADDRESS[ChainId.KOVAN], 18, 'TELE', 'Telefy'),
+  [ChainId.MATIC]: new Token(ChainId.MATIC, TELE_ADDRESS[ChainId.MATIC], 18, 'TELE', 'Telefy'),
+  [ChainId.FANTOM]: new Token(ChainId.FANTOM, TELE_ADDRESS[ChainId.FANTOM], 18, 'TELE', 'Telefy'),
+  [ChainId.XDAI]: new Token(ChainId.XDAI, TELE_ADDRESS[ChainId.XDAI], 18, 'TELE', 'Telefy'),
+  [ChainId.BSC]: new Token(ChainId.BSC, TELE_ADDRESS[ChainId.BSC], 18, 'TELE', 'Telefy'),
   [ChainId.ARBITRUM_ONE]: new Token(
     ChainId.ARBITRUM_ONE,
-    SUSHI_ADDRESS[ChainId.ARBITRUM_ONE],
+    TELE_ADDRESS[ChainId.ARBITRUM_ONE],
     18,
-    'SUSHI',
-    'SushiToken'
+    'TELE',
+    'Telefy'
   ),
-  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, SUSHI_ADDRESS[ChainId.AVALANCHE], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.OKEX]: new Token(ChainId.OKEX, SUSHI_ADDRESS[ChainId.OKEX], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.HARMONY]: new Token(ChainId.HARMONY, SUSHI_ADDRESS[ChainId.HARMONY], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.HECO]: new Token(ChainId.HECO, SUSHI_ADDRESS[ChainId.HECO], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.CELO]: new Token(ChainId.CELO, SUSHI_ADDRESS[ChainId.CELO], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.MOONRIVER]: new Token(ChainId.MOONRIVER, SUSHI_ADDRESS[ChainId.MOONRIVER], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.FUSE]: new Token(ChainId.FUSE, SUSHI_ADDRESS[ChainId.FUSE], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.TELOS]: new Token(ChainId.TELOS, SUSHI_ADDRESS[ChainId.TELOS], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, SUSHI_ADDRESS[ChainId.MOONBEAM], 18, 'SUSHI', 'SushiToken')
+  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, TELE_ADDRESS[ChainId.AVALANCHE], 18, 'TELE', 'Telefy'),
+  [ChainId.OKEX]: new Token(ChainId.OKEX, TELE_ADDRESS[ChainId.OKEX], 18, 'TELE', 'Telefy'),
+  [ChainId.HARMONY]: new Token(ChainId.HARMONY, TELE_ADDRESS[ChainId.HARMONY], 18, 'TELE', 'Telefy'),
+  [ChainId.HECO]: new Token(ChainId.HECO, TELE_ADDRESS[ChainId.HECO], 18, 'TELE', 'Telefy'),
+  [ChainId.CELO]: new Token(ChainId.CELO, TELE_ADDRESS[ChainId.CELO], 18, 'TELE', 'Telefy'),
+  [ChainId.MOONRIVER]: new Token(ChainId.MOONRIVER, TELE_ADDRESS[ChainId.MOONRIVER], 18, 'TELE', 'Telefy'),
+  [ChainId.FUSE]: new Token(ChainId.FUSE, TELE_ADDRESS[ChainId.FUSE], 18, 'TELE', 'Telefy'),
+  [ChainId.TELOS]: new Token(ChainId.TELOS, TELE_ADDRESS[ChainId.TELOS], 18, 'TELE', 'Telefy'),
+  [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, TELE_ADDRESS[ChainId.MOONBEAM], 18, 'TELE', 'Telefy')
 }
