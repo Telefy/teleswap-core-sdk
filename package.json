@@ -1,7 +1,7 @@
 {
   "name": "@telefy/teleswap-core-sdk",
   "license": "MIT",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "⚒️ An SDK provides a developer with the ability to build a custom app which can be connected to Teleswap",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
