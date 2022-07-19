@@ -178,6 +178,32 @@ export const USDT_ADDRESS: AddressMap = {
   [ChainId.OPTIMISM]: '0x94b008aA00579c1307B0EF2c499aD98a8ce58e58'
 }
 
+export const TELE_POOL_ADDRESS: AddressMap = {
+  [ChainId.MAINNET]: '',
+  [ChainId.ROPSTEN]: '',
+  [ChainId.RINKEBY]: '0x0e754B8Add99C9C741041f64f0617e68c2950b58',
+  [ChainId.GOERLI]: '',
+  [ChainId.KOVAN]: '',
+  [ChainId.ARBITRUM_KOVAN]: '',
+  [ChainId.FANTOM]: '',
+  [ChainId.MATIC]: '',
+  [ChainId.XDAI]: '',
+  [ChainId.BSC]: '',
+  [ChainId.ARBITRUM_ONE]: '',
+  [ChainId.AVALANCHE]: '',
+  [ChainId.HECO]: '',
+  [ChainId.HARMONY]: '',
+  [ChainId.OKEX]: '',
+  [ChainId.OKEX_TESTNET]: '',
+  [ChainId.PALM]: '',
+  [ChainId.PALM_TESTNET]: '',
+  [ChainId.MOONRIVER]: '',
+  [ChainId.CELO]: '',
+  [ChainId.TELOS]: '',
+  [ChainId.FUSE]: '',
+  [ChainId.MOONBEAM]: ''
+}
+
 export const MIM_ADDRESS: AddressMap = {
   [ChainId.MAINNET]: '0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3',
   [ChainId.FANTOM]: '0x82f0B8B456c1A451378467398982d4834b6829c1',
