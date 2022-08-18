@@ -15,3 +15,5 @@ export enum Rounding {
 }
 
 export const MaxUint256 = JSBI.BigInt('0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')
+
+export const VAULT_POOL_TELE_PER_BLOCK = 10

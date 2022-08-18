@@ -179,7 +179,7 @@ export const USDT_ADDRESS: AddressMap = {
 }
 
 export const TELE_POOL_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '',
+  [ChainId.MAINNET]: '0x0e754B8Add99C9C741041f64f0617e68c2950b58',
   [ChainId.ROPSTEN]: '',
   [ChainId.RINKEBY]: '0x0e754B8Add99C9C741041f64f0617e68c2950b58',
   [ChainId.GOERLI]: '',
